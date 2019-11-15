@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "build": "rm -rf dist && webpack --mode development --config webpack.config.js && webpack --mode development"
   },
   "author": "kashif",
   "license": "ISC",
