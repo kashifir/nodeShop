@@ -36,15 +36,14 @@ const db = {};
  * @type {Sequelize}
  */
 
-const dbinfo = new Sequelize(confiAuth.development.database, confiAuth.development.username, confiAuth.development.password, {
-    host: confiAuth.development.host,
-    dialect: confiAuth.development.dialect,
+const dbinfo = new Sequelize("test", "test", "test", {
+    host: "test",
+    dialect: "mysql",
     port: 3306,
     pool: {
         max: 5,
         min: 0,
-        acquire: 30000,
-        idle: 10000,
+
     }
 
 });
