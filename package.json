@@ -1,29 +1,29 @@
 {
-  "name": "shop",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-  },
-  "author": "kashif",
-  "license": "ISC",
-  "dependencies": {
-    "@types/express": "^4.17.2",
-    "bcrypt": "^3.0.6",
-    "body-parser": "1.15.2",
-    "cors": "2.8.4",
-    "expres": "0.0.5",
-    "express": "^4.14.0",
-    "jsonwebtoken": "7.4.2",
-    "mysql2": "^1.6.1",
-    "nodemon": "1.18.4",
-    "sequelize": "4.38.0"
-  },
-  "devDependencies": {
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "webpack-node-externals": "^1.7.2"
-  }
+    "name": "shop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "kashif",
+    "license": "ISC",
+    "dependencies": {
+        "@types/express": "^4.17.2",
+        "bcrypt": "^3.0.6",
+        "body-parser": "1.15.2",
+        "cors": "2.8.4",
+        "expres": "0.0.5",
+        "express": "^4.14.0",
+        "jsonwebtoken": "7.4.2",
+        "mysql2": "^1.6.1",
+        "nodemon": "1.18.4",
+        "sequelize": "4.38.0"
+    },
+    "devDependencies": {
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-node-externals": "^1.7.2"
+    }
 }
